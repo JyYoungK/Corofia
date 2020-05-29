@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+.joinInput {
+  border-radius: 0;
+  padding: 15px 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.heading {
+  color: red;
+  font-size: 4em;
+  padding-bottom: 10px;
+  border-bottom: 2px solid red;
+}
+
+.button {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: rgb(102, 26, 7);
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    width: 100%;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .Container {
+    height: 100%;
+    width: 90%;
+  }
+
+}
+
+button:focus {
+  outline: 0;
+}
+
+
+  
